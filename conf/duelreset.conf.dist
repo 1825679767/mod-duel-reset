@@ -2,45 +2,45 @@
 
 #
 #    DuelReset.Cooldowns
-#        Description: Reset all cooldowns before duel starts and restore them when duel ends.
-#        Default:     1  - (Enabled)
-#                     0  - (Disabled)
+#        描述: 在决斗开始前重置所有冷却，并在决斗结束时恢复它们。
+#        默认:     1  - （启用）
+#                     0  - （禁用）
 
 DuelReset.Cooldowns = 1
 
 #    DuelReset.HealthMana
-#        Description: Reset health and mana before duel starts and restore them when duel ends.
-#        Default:     1  - (Enabled)
-#                     0  - (Disabled)
+#        描述: 在决斗开始前重置生命值和法力值，并在决斗结束时恢复它们。
+#        默认:     1  - （启用）
+#                     0  - （禁用）
 
 DuelReset.HealthMana = 1
 
 #    DuelReset.CooldownAge
-#        Description: Required time of a cooldown passed for it to be reset. Measured in seconds since the cooldown started.
-#        Default:     30  - (Enabled)
-#                     0  - (Disabled)
+#        描述: 冷却重置所需的时间。以秒为单位，自冷却开始计算。
+#        默认:     30  - （启用）
+#                     0  - （禁用）
 
 DuelReset.CooldownAge = 30
 
 #    DuelReset.Zones
-#        Description: Whitelist of ZoneIDs seperated by Semicolons (;) where the reset for cooldowns and health/mana is enabled.
-#                     If Zones is set to any, the set Areas do not matter. The reset will always be applied.
-#                     If Zones is set to none, only the set Areas matter.
+#        描述: 以分号（;）分隔的ZoneID的白名单，其中启用冷却和生命/法力值重置。
+#                     如果Zones设置为any，则设置的区域不重要。重置将始终被应用。
+#                     如果Zones设置为none，则仅设置的区域重要。
 #
-#        Examples:    "876;3817" - (GM Island;Testing)
-#                     "0" - (none)
-#                     ""  - (any)
-#        Default:     "0" - (none)
+#        示例:    "876;3817" - （GM岛；测试）
+#                     "0" - （无）
+#                     ""  - （任何）
+#        默认:     "0" - （无）
 
 DuelReset.Zones = "0"
 
 #    DuelReset.Areas
-#        Description: Whitelist of AreaIDs seperated by Semicolons (;) where the reset for cooldowns and health/mana is enabled.
-#                     If Areas is set to any or none, only the set Zones matter.
+#        描述: 以分号（;）分隔的AreaID的白名单，其中启用冷却和生命/法力值重置。
+#                     如果Areas设置为any或none，则只有设置的Zones重要。
 #
-#        Examples:    "85;1" - (Tirisfal Glades;Dun Morogh)
-#                     "0" - (none)
-#                     ""  - (any)
-#        Default:     "12;14;809" - (Elwynn Forest;Durotar;Gates of Ironforge)
+#        示例:    "85;1" - （提瑞斯法林地；丹莫罗）
+#                     "0" - （无）
+#                     ""  - （任何）
+#        默认:     "12;14;809" - （艾尔文森林；杜隆塔尔；铁炉堡之门）
 
 DuelReset.Areas = "12;14;809"

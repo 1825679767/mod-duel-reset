@@ -20,7 +20,7 @@ DuelReset.HealthMana = 1
 #        默认:     30  - （启用）
 #                     0  - （禁用）
 
-DuelReset.CooldownAge = 30
+DuelReset.CooldownAge = 10
 
 #    DuelReset.Zones
 #        描述: 以分号（;）分隔的ZoneID的白名单，其中启用冷却和生命/法力值重置。
@@ -32,7 +32,7 @@ DuelReset.CooldownAge = 30
 #                     ""  - （任何）
 #        默认:     "0" - （无）
 
-DuelReset.Zones = "0"
+DuelReset.Zones = ""
 
 #    DuelReset.Areas
 #        描述: 以分号（;）分隔的AreaID的白名单，其中启用冷却和生命/法力值重置。
@@ -43,4 +43,4 @@ DuelReset.Zones = "0"
 #                     ""  - （任何）
 #        默认:     "12;14;809" - （艾尔文森林；杜隆塔尔；铁炉堡之门）
 
-DuelReset.Areas = "12;14;809"
+DuelReset.Areas = ""
